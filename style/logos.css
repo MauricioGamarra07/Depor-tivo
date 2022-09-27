@@ -1,0 +1,31 @@
+.overlay2{
+    background: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    min-height: 80vh;
+}
+.caja1 a{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+.caja2 a{
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px;
+}
+.caja3 a{
+    color: white;
+    background: radial-gradient(circle at 15% 100%, orange, rgb(255,100,50), #d92e7f, #9b36b7, #515ecf);
+    padding: 20px;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo1 a, .logo2 a, .logo3 a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
